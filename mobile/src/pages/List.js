@@ -33,8 +33,8 @@ export default function List({ navigation }) {
         <Image style={styles.logo} source={logo} />
       </TouchableOpacity>
 
-      <ScrollView style={styles.scrollView}>
-        {techs.map(tech => (
+      <ScrollView>
+        {techs.map((tech, index) => (
           <SpotList key={tech} tech={tech} />
         ))}
       </ScrollView>
@@ -50,9 +50,7 @@ const styles = StyleSheet.create({
   logo: {
     height: 32,
     resizeMode: "contain",
-    alignSelf: "center"
-  },
-  scrollView: {
-    marginBottom: 40
+    alignSelf: "center",
+    marginBottom: 30
   }
 });

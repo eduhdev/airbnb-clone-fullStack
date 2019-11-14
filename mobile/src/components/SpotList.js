@@ -65,7 +65,7 @@ function SpotList({ tech, navigation }) {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 30
+    marginBottom: 30
   },
   title: {
     fontSize: 20,
