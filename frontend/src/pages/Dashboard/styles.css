@@ -30,3 +30,30 @@ ul.spot-list li span {
   font-size: 15px;
   color: #999;
 }
+
+ul.notificacoes {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul.notificacoes li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul.notificacoes li button {
+  margin-right: 10px;
+  border: 0;
+  font-weight: bold;
+  margin-top: 10px;
+  background: none;
+  cursor: pointer;
+}
+
+ul.notificacoes li button.accept {
+  color: #84c870;
+}
+
+ul.notificacoes li button.reject {
+  color: #e55e5e;
+}
